@@ -49,7 +49,22 @@ body {
   background-color: #ddd;
   color: black;
 }
-  
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
 </style>
 </head>
 <body>
@@ -64,6 +79,17 @@ body {
   <a href="writing.html">Writing</a>
   <a href="photography.html">Photography</a>
 </div>
-  
+
+<div class="row">
+  <div class="side">
+    <h2>Test Writing 1</h2>
+    <p>This is a piece of test writing. Writing work that I create will eventually be put here.</p>
+  </div>
+  <div class="main">
+    <h2>Test Writing 2</h2>
+    <p>This is also a piece of test writing.</p>
+  </div>
+</div>
+
 </body>
 </html>
